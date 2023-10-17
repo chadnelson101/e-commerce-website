@@ -1,0 +1,36 @@
+    h4{
+    color: yellowgreen;
+    font-family: Gabarito;
+
+}
+
+nav{
+    text-align: right;
+    margin: 2rem;
+    text-decoration: none;
+}
+
+.sec1{
+    background-image: url(/R.jpg)
+    
+    
+}
+
+.product img{
+    width: 200px;
+    hanging-punctuation: 200px;
+}
+
+.product a{
+    text-align: right;
+}
+
+.main-home{
+    padding: 5% 10%;
+    background-image: url(/Mens-UK-Fashion-Blogger-All-Grey-Summer-Outfit1.jpg);
+    width: 50%;
+    height: 50vh;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}

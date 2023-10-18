@@ -94,19 +94,22 @@ h2{
     height: 250px;
 }
 
-.div1{
+.navmenu{
     display: flex;
-    
 }
-.div1 li{
-    text-decoration: none;
+
+.navmenu a{
     font-size: 16px;
-   padding: 10px 20px;
-   color: black;
+    padding: 10px 20px;
+    font-weight: 400;
+    color: black;
 }
-.div:hover{
+
+.navmenu a:hover{
     color: purple;
 }
+
+
 body{
     margin: 0;
     font-family: sans-serif;
@@ -122,11 +125,13 @@ h3{
     width: 100%;
     justify-content: center;
     margin: 50px 0;
+    flex-wrap: wrap;
 }
 div{
     width: 20%;
     margin: 15px;
     box-sizing: border-box;
+    float: left;
     text-align: center;
     border-radius: 20px;
     cursor: pointer;
@@ -136,7 +141,6 @@ div{
 }
 
 div:hover{
-    
     transform: translate(0px, -8px);
 }
 img{

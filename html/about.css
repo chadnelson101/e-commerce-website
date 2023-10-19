@@ -122,4 +122,24 @@ img{
         font-size: 16px;
     }
 }
+.navmenu{
+    text-align: center;
+    
+} 
+.navmenu a{
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+ }
+ .navmenu a:hover{
+    color: purple;
+}
+#nav{
+    background: lightgrey;
+}
+
+
     

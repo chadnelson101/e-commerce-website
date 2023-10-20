@@ -1,0 +1,169 @@
+h2{
+    color: yellowgreen;
+    font: italic;
+    font-size: 50px;
+    font-weight:100;
+}
+
+.content{
+    display: grid;
+    margin: 20px;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "pic1       pic2        pic3"
+    "pic4       pic5        pic6"
+    "pic7       pic8        pic9"
+    "pic10     pic11       pic12" 
+    ;
+}
+
+.pic{
+    grid-area: pic1;
+    width: 250px;
+    height: 250px; 
+}
+
+.pic2{
+    grid-area: pic2;
+    width: 250px;
+    height: 250px;
+}
+
+.pic3{
+    grid-area: pic3;
+    width: 250px;
+    height: 250px;
+}
+
+.pic4{
+    grid-area: pic4;
+    width: 250px;
+    height: 250px;
+}
+
+.pic5{
+    grid-area: pic5;
+    width: 250px;
+    height: 250px;
+}
+
+.pic6{
+    grid-area: pic6;
+    width: 250px;
+    height: 250px;
+}
+
+.pic7{
+    grid-area: pic7;
+    width: 250px;
+    height: 250px;
+}
+
+.pic8{
+    grid-area: pic8;
+    width: 250px;
+    height: 250px;
+}
+
+.pic9{
+    grid-area: pic9;
+    width: 250px;
+    height: 250px;
+}
+
+.pic10{
+    grid-area: pic10;
+    width: 250px;
+    height: 250px;
+}
+.pic11{
+    grid-area: pic10;
+    width: 250px;
+    height: 250px;
+}
+.pic12{
+    grid-area: pic10;
+    width: 250px;
+    height: 250px;
+}
+.pic13{
+    grid-area: pic10;
+    width: 250px;
+    height: 250px;
+}
+
+.navmenu{
+    display: flex;
+    text-align: right;
+}
+
+.navmenu a{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: 400;
+    color: red;
+}
+
+.navmenu a:hover{
+    color: purple;
+}
+
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+.content{
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+div{
+    width: 90%;
+    margin: 30px;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 10px;
+    transition: .4s;
+    background: #f2f2f2;
+}
+
+div:hover{
+    transform: translate(0px, -8px);
+}
+img{
+    text-align: center;
+    margin: 0;
+    display: block;
+}
+p{
+    text-align: center;
+    color: #b2bec3;
+    padding-top: 0 8px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222;
+}
+
+#nav{
+    background-color: black;
+}
+head{
+    background-color: black;
+}

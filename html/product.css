@@ -130,8 +130,8 @@ h3{
     flex-wrap: wrap;
 }
 div{
-    width: 20%;
-    margin: 15px;
+    width: 90%;
+    margin: 30px;
     box-sizing: border-box;
     float: left;
     border-radius: 20px;
@@ -159,4 +159,11 @@ h6{
     font-size: 26px;
     text-align: center;
     color: #222;
+}
+
+#nav{
+    background-color: black;
+}
+head{
+    background-color: black;
 }

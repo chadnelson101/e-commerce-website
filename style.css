@@ -3,12 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-h4{
-    color: yellowgreen;
-    font-family: Gabarito;
-    font-size: 38px;
-
-}
 .navmenu{
     text-align: center;
     
@@ -19,13 +13,13 @@ h4{
    font-weight: 400;
    text-align: center;
    text-decoration: none;
-   color: black;
+   color: red;
 }
 .navmenu a:hover{
     color: purple;
 }
 #nav{
-    background: lightgrey;
+    background: black;
 }
 section{
     padding: 5% 10%;
@@ -82,3 +76,7 @@ footer{
 #h1{
     color: white;
 }
+
+header{
+    background-color: black;
+} 

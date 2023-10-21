@@ -96,13 +96,15 @@ h2{
 
 .navmenu{
     display: flex;
+    text-align: right;
 }
 
 .navmenu a{
+    text-align: center;
     font-size: 16px;
     padding: 10px 20px;
     font-weight: 400;
-    color: black;
+    color: red;
 }
 
 .navmenu a:hover{
@@ -128,12 +130,12 @@ h3{
     flex-wrap: wrap;
 }
 div{
-    width: 20%;
-    margin: 15px;
+    width: 90%;
+    margin: 30px;
     box-sizing: border-box;
     float: left;
-    text-align: center;
     border-radius: 20px;
+    text-align: center;
     cursor: pointer;
     padding-top: 10px;
     transition: .4s;
@@ -157,4 +159,11 @@ h6{
     font-size: 26px;
     text-align: center;
     color: #222;
+}
+
+#nav{
+    background-color: black;
+}
+head{
+    background-color: black;
 }

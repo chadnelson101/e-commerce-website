@@ -124,6 +124,7 @@ body{
     }
     .btn2{
         display: none;
+        margin-top: 20px;
     }
     .box img{
         height: 150px;
